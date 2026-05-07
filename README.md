@@ -1,3 +1,6 @@
+# THIS IS JUST A PERSONNAL TEST, I DO NOT OWN ANY OF THE ASSETS.
+# GO TO https://github.com/rickfay/ALBW-Randomizer-Tracker FOR THE REAL EMOTRACKER PACKAGE
+
 # ALBW Randomizer Tracker
 
 ## About
