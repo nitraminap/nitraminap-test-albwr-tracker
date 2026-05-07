@@ -291,8 +291,8 @@ Note that the 2 Maiamai located inside the Rupee Rush minigames will not be hidd
 
 ### Lorule Castle Trials
 
-
-This setting tells the tracker whether the option to skip the Lorule Castle Trials was selected in the randomizer. This
+This setting tells the tracker how many trials need to be completed to open the Lorule Castle Trial Door and
+whether the option to skip the Lorule Castle Trials was selected in the randomizer. This
 setting slightly alters the logic needed to reach the Final Boss fight, as the player won't need to complete the trials.
 
 ### Dark Room Lamp Requirement
@@ -306,6 +306,16 @@ still technically obtainable as the Lamp is not a hard requirement.
 Similarly, if the Lamp is not required, then those same checks will appear `🟩 Normal`, as the setting
 places them in logic, and the seed may require the player to cross a dark room with no light source.
 
+### Lamp and Net as Weapons
+
+This settings determines wether the logic considers the normal (not super) Lamp and Net as sources of damage.
+
+If they are not and the player doesn't have any other source of damage, then checks that require a source of damage will 
+appear as `🟨 Sequence Breaks`. Theses checks are still technically obtainable but the logic does not expect the player 
+to obtain them yet.
+
+If this setting is activated, these same check will appear as `🟩 Normal` with any source of damage, lamp and net included.
+
 ### Display Bee Boost Glitches
 
 ![Bee Boost Glitches](images/display/bottle_bee.png)
@@ -317,11 +327,31 @@ Checks requiring the Bee Boost glitch are hidden by default given the trick's ex
 <u>**Note**</u>: This setting will be ignored if the **Glitched (Hell)** Logic Mode is selected, as they would then be in
 logic.
 
+### Cracksanity
+
+TODO : write this part and reorder thi mess
+
+### Weather Vanes Map
+
+This setting toggles the visibility of the Weather Vanes.
+If this setting is put on "Only", the tracker will only display the Weather Vanes on world maps and will 
+stop showing all other checks (Normal checks, Cracks, Hint Ghosts and Maiamai checks)
+
 ### Maiamai Map
 
 ![Maiamai Map](images/display/maiamai_map.png)
 
 This setting toggles the visibility of the Maiamai checks.
+If this setting is put on "Only", the tracker will only display the Maiamai checks on both world maps and will 
+stop showing all other checks (Normal checks, Weather Vanes, Cracks and Hint Ghosts)
+
+### Hint Ghost Map
+
+![Hint Ghost Map](images/display/Hints.png)
+
+This setting toggles the visibility of overworld Hint Ghosts.
+If this setting is put on "Only", the tracker will only display the Hint Ghosts on both world maps and will 
+stop showing all other checks (Normal checks, Weather Vanes, Cracks and Maiamai checks)
 
 ### Hot Keys
 
