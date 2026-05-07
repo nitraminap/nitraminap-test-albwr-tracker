@@ -258,6 +258,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1211,
             "y": 39
           }

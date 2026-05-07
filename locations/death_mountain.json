@@ -9,6 +9,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 885,
             "y": 373
           }
@@ -33,6 +34,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1193,
             "y": 385
           }
@@ -68,6 +70,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1095,
             "y": 221
           }
@@ -97,6 +100,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 985,
             "y": 373
           }
@@ -117,9 +121,11 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1142,
             "y": 468,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -144,6 +150,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1025,
             "y": 251
           }
@@ -167,9 +174,11 @@
         "map_locations": [
           {
             "map": "hyrule",
-            "x": 1045,
-            "y": 245,
-            "size": 48
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
+            "x": 1095,
+            "y": 275,
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -197,6 +206,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 963,
             "y": 173
           }
@@ -220,6 +230,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1025,
             "y": 51
           }
@@ -244,6 +255,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1878,
             "y": 168
           }
@@ -266,9 +278,11 @@
         "map_locations": [
           {
             "map": "hyrule",
-            "x": 1910,
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
+            "x": 1940,
             "y": 168,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -295,6 +309,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1718,
             "y": 176
           }
@@ -317,6 +332,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1695,
             "y": 227
           }
@@ -340,9 +356,11 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1639,
             "y": 254,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -368,9 +386,11 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1324,
             "y": 390,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -395,6 +415,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1625,
             "y": 79
           }
@@ -426,6 +447,7 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1147,
             "y": 248
           }
@@ -447,6 +469,7 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1061,
             "y": 348
           }
@@ -469,6 +492,7 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1149,
             "y": 65
           }
@@ -494,9 +518,11 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 864,
             "y": 303,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -521,9 +547,11 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 843,
             "y": 111,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -550,9 +578,11 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1309,
             "y": 429,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -578,6 +608,7 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1319,
             "y": 140
           }
@@ -600,6 +631,7 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1693,
             "y": 222
           }
@@ -622,9 +654,11 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1723,
             "y": 475,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -650,9 +684,11 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1634,
             "y": 256,
-            "size": 48
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [
@@ -680,9 +716,11 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1880,
-            "y": 106,
-            "size": 48
+            "y": 86,
+            "size": 65,
+            "border_thickness": 13
           }
         ],
         "sections": [

@@ -12,7 +12,7 @@
           "merge, quake, $access_central_lorule"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -37,8 +37,7 @@
           "merge, quake, $access_central_lorule"
         ],
         "visibility_rules": [
-          "not_random",
-          "cracksanity"
+          "not_random, cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -63,7 +62,7 @@
           "merge, quake, $access_central_lorule"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -71,7 +70,7 @@
       {
         "map": "lorule",
         "x": 952,
-        "y": 1561,
+        "y": 1581,
         "badge_size": 40
       }
     ]
@@ -88,7 +87,7 @@
           "merge, quake, $access_central_lorule"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -96,7 +95,7 @@
       {
         "map": "lorule",
         "x": 590,
-        "y": 1727,
+        "y": 1757,
         "badge_size": 40
       }
     ]
@@ -112,7 +111,7 @@
           "{$inspect_down_crack_lorule}"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -140,7 +139,7 @@
           "merge, quake, $warpLorule, wv_skull"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -148,7 +147,7 @@
       {
         "map": "lorule",
         "x": 102,
-        "y": 342,
+        "y": 362,
         "badge_size": 40
       }
     ]
@@ -167,7 +166,7 @@
           "merge, quake, $warpLorule, wv_skull"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -194,7 +193,7 @@
           "merge, quake, $warpLorule, wv_skull"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -226,7 +225,7 @@
           "merge, quake, $warpLorule, wv_mire"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -257,7 +256,7 @@
           "merge, quake, $warpLorule, wv_mire"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -281,7 +280,7 @@
           "{$inspect_crack_lorule}"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -309,7 +308,7 @@
           "[hell], merge, quake, bombs, $access_misery_mire"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -337,7 +336,7 @@
           "[hell], merge, quake, bombs, $access_misery_mire"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -367,7 +366,7 @@
           "[advanced], merge, quake, $advanced_misery_mire_oob, crack_mire_exit"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -394,7 +393,7 @@
           "merge, quake, $warpLorule, wv_graveyard"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -402,7 +401,7 @@
       {
         "map": "lorule",
         "x": 945,
-        "y": 555,
+        "y": 525,
         "badge_size": 40
       }
     ]
@@ -423,7 +422,7 @@
           "merge, quake, $warpLorule, wv_dark"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -451,7 +450,7 @@
           "merge, quake, $warpLorule, wv_dark"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -479,7 +478,7 @@
           "merge, quake, $warpLorule, wv_dark, bombs"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -507,7 +506,7 @@
           "merge, quake, $warpLorule, wv_dark"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -515,7 +514,7 @@
       {
         "map": "lorule",
         "x": 1425,
-        "y": 545,
+        "y": 515,
         "badge_size": 40
       }
     ]
@@ -540,7 +539,7 @@
           "merge, quake, $warpLorule, wv_turtle, flippers"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -569,7 +568,7 @@
           "merge, quake, $warpLorule, wv_turtle, flippers"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -598,7 +597,7 @@
           "merge, quake, $warpLorule, wv_turtle, flippers"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -625,7 +624,7 @@
           "[glitched], merge, quake, $glitched_access_ldm_west"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -650,6 +649,9 @@
           "merge, quake, trod, $access_ldm_east_top",
           "merge, quake, trod, [glitched], $glitched_access_ldm_east_top",
           "merge, quake, trod, [hell], $hell_access_ldm_east_top"
+        ],
+        "visibility_rules": [
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],
@@ -676,7 +678,7 @@
           "merge, quake, [hell], $hell_access_ldm_east_base"
         ],
         "visibility_rules": [
-          "cracksanity"
+          "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only"
         ]
       }
     ],

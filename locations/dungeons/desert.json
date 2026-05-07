@@ -331,6 +331,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 185,
             "y": 1605
           }
@@ -491,6 +492,7 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 192,
             "y": 1602
           }

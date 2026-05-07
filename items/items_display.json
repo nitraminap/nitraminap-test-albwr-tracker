@@ -20,6 +20,27 @@
     ]
   },
   {
+    "name": "Weather Vanes",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/display/wv_all.png",
+        "img_mods": "@disabled,overlay|images/display/Hide.png"
+      },
+      {
+        "img": "images/display/wv_all.png",
+        "img_mods": "overlay|images/display/Show.png",
+        "codes": "weathervania"
+      },
+      {
+        "img": "images/display/wv_all.png",
+        "img_mods": "overlay|images/display/Only.png",
+        "codes": "weathervania_only"
+      }
+    ]
+  },
+  {
     "name": "Minigames",
     "type": "progressive",
     "loop": true,
@@ -62,38 +83,42 @@
   {
     "name": "Maiamai Map",
     "type": "progressive",
-    "loop": true,
     "allow_disabled": false,
     "stages": [
       {
         "img": "images/display/maiamai_map.png",
-        "img_mods": "@disabled,overlay|images/display/Hide.png",
-        "inherit_codes": false
+        "img_mods": "@disabled,overlay|images/display/Hide.png"
       },
       {
         "img": "images/display/maiamai_map.png",
         "img_mods": "overlay|images/display/Show.png",
-        "codes": "maiamai_map",
-        "inherit_codes": false
+        "codes": "maiamai_map"
+      },
+      {
+        "img": "images/display/maiamai_map.png",
+        "img_mods": "overlay|images/display/Only.png",
+        "codes": "maiamai_map_only"
       }
     ]
   },
   {
     "name": "Hint ghosts",
     "type": "progressive",
-    "loop": true,
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/display/Hints.png",
-        "img_mods": "@disabled,overlay|images/display/Hide.png",
-        "inherit_codes": false
+        "img": "images/display/Hints_Disabled.png",
+        "img_mods": "overlay|images/display/Hide.png"
       },
       {
         "img": "images/display/Hints.png",
         "img_mods": "overlay|images/display/Show.png",
-        "codes": "hints",
-        "inherit_codes": false
+        "codes": "hint_ghosts"
+      },
+      {
+        "img": "images/display/Hints.png",
+        "img_mods": "overlay|images/display/Only.png",
+        "codes": "hint_ghosts_only"
       }
     ]
   },

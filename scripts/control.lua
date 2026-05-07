@@ -259,6 +259,7 @@ function cutGrass()
     return hasAny({ "fsword", "boomerang", "bombs", "frod", "irod", "lamp", "boots" });
 end
 
+
 function access_ep_boss()
     return attack() and ep_big_key() and (ep_small_keys(2) or (ep_small_keys(1) and hasAny({ "bombs", "irod" })))
 end
@@ -288,21 +289,33 @@ function yuga_eastern()
         
         --Hard
         if hasAny({ "bombs", "msword", "niceirod" }) or (hasAny({ "boomerang", "hookshot" }) and attack()) then
-            return true_for("hard")
+            if has("hard") then 
+                return attack()
+            else
+                return attack(), AccessibilityLevel.SequenceBreak
+            end
         end
     end
 
     -- Glitched
     if access_ep_boss_glitched() then
         if hasAny({ "bow", "bombs", "msword", "niceirod" }) or (hasAny({ "boomerang", "hookshot" }) and attack()) then
-            return true_for("glitched")
+            if has("glitched") then 
+                return attack()
+            else
+                return attack(), AccessibilityLevel.SequenceBreak
+            end
         end
     end
 
     -- Advanced Glitched
     if access_ep_boss_advanced() then
         if hasAny({ "bow", "bombs", "msword", "niceirod" }) or (hasAny({ "boomerang", "hookshot" }) and attack()) then
-            return true_for("advanced")
+            if has("advanced") then 
+                return attack()
+            else
+                return attack(), AccessibilityLevel.SequenceBreak
+            end
         end
 
         -- Hell
@@ -314,49 +327,6 @@ function yuga_eastern()
     return false
 end
 
---[[ 
-        --Hard
-        if hasAny({ "bombs", "msword", "niceirod" }) then
-            return true_for("hard")
-
-        elseif hasAny({ "boomerang", "hookshot" }) then
-            if has("hard") then
-                return attack()
-            else
-                return attack(), AccessibilityLevel.SequenceBreak
-            end
-        end
-    end
-
-    -- Glitched
-    if access_ep_boss_glitched() then
-
-        if hasAny({ "bow", "bombs", "msword", "niceirod" }) then
-            return true_for("glitched")
-
-        elseif hasAny({ "boomerang", "hookshot" }) then
-            if has("glitched") then
-                return attack()
-            else
-                return attack(), AccessibilityLevel.SequenceBreak
-            end
-        end
-    end
-
-    -- Advanced Glitched
-    if access_ep_boss_advanced() then
-
-        if hasAny({ "bow", "bombs", "msword", "niceirod" }) then
-            return true_for("advanced")
-            
-        elseif hasAny({ "boomerang", "hookshot" }) then
-            if has("advanced") then
-                return attack()
-            else
-                return attack(), AccessibilityLevel.SequenceBreak
-            end
-        end
- ]]
 
 function notNiceMode()
     return not has("nice_mode")
@@ -632,6 +602,7 @@ function sanctuary()
     if hs_small_key() and hasAny({ "lamp", "frod" }) then
         return attack()
     end
+    return false
 end
 
 -- Never in logic

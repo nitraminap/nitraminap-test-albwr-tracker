@@ -80,4 +80,5 @@ if Tracker.ActiveVariantUID == "standard" or Tracker.ActiveVariantUID == "compac
     Tracker:AddLocations("locations/cracks_hyrule.json")
     Tracker:AddLocations("locations/cracks_lorule.json")
     Tracker:AddLocations("locations/maiamai.json")
+    Tracker:AddLocations("locations/hints.json")
 end

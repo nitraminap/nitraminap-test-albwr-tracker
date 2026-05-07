@@ -9,6 +9,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 928,
             "y": 926
           }
@@ -30,6 +31,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1070,
             "y": 1048
           }
@@ -52,6 +54,7 @@
         "map_locations": [
           {
             "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 1024,
             "y": 934
           }

@@ -357,20 +357,23 @@
   {
     "name": "Cracksanity",
     "type": "progressive",
-    "loop": true,
     "allow_disabled": false,
     "stages": [
       {
         "img": "images/settings/cracksanity.png",
         "img_mods": "@disabled,overlay|images/settings/OFF.png",
-        "codes": "not_cracksanity",
-        "inherit_codes": false
+        "codes": "not_cracksanity"
       },
       {
         "img": "images/settings/cracksanity.png",
         "img_mods": "overlay|images/settings/ON.png",
         "codes": "cracksanity",
         "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cracksanity.png",
+        "img_mods": "overlay|images/display/Only.png",
+        "codes": "cracksanity_only"
       }
     ]
   },
@@ -385,39 +388,6 @@
     "type": "toggle",
     "img": "",
     "codes": "wv_lorule"
-  },
-  {
-    "name": "Weather Vanes",
-    "type": "composite_toggle",
-    "codes": "weathervania",
-    "item_left": "wv_hyrule",
-    "item_right": "wv_lorule",
-    "images": [
-      {
-        "left": false,
-        "right": false,
-        "img": "images/display/wv_all.png",
-        "img_mods": "overlay|images/settings/OFF.png,@disabled"
-      },
-      {
-        "left": true,
-        "right": false,
-        "img": "images/display/wv_hyrule.png",
-        "img_mods": "overlay|images/settings/Hyrule.png"
-      },
-      {
-        "left": false,
-        "right": true,
-        "img": "images/display/wv_lorule.png",
-        "img_mods": "overlay|images/settings/Lorule.png"
-      },
-      {
-        "left": true,
-        "right": true,
-        "img": "images/display/wv_all.png",
-        "img_mods": "overlay|images/settings/ALL.png"
-      }
-    ]
   },
   {
     "name": "Small Keysy",

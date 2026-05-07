@@ -300,6 +300,7 @@
         "map_locations": [
           {
             "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only"],
             "x": 962,
             "y": 1808
           }

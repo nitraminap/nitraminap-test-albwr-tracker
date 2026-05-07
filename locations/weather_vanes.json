@@ -10,7 +10,8 @@
             "map": "hyrule",
             "x": 1049,
             "y": 1377,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -19,7 +20,7 @@
             "name": "Your House Weather Vane",
             "hosted_item": "wv_your_house",
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -31,7 +32,8 @@
             "map": "hyrule",
             "x": 293,
             "y": 978,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -40,7 +42,7 @@
             "name": "Weather Vane",
             "hosted_item": "wv_kakariko",
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -52,7 +54,8 @@
             "map": "hyrule",
             "x": 1990,
             "y": 827,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -73,7 +76,7 @@
               "[hard], power_glove"
             ],
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -85,7 +88,8 @@
             "map": "hyrule",
             "x": 1559,
             "y": 1738,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -101,7 +105,7 @@
               "[hell], $beeFakeFlippers"
             ],
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -111,9 +115,10 @@
         "map_locations": [
           {
             "map": "hyrule",
-            "x": 1224,
-            "y": 95,
-            "size": 52,
+            "x": 1230,
+            "y": 100,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -130,7 +135,7 @@
               "[hell], $hell_access_dm_west_top"
             ],
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -140,9 +145,10 @@
         "map_locations": [
           {
             "map": "hyrule",
-            "x": 1639,
+            "x": 1650,
             "y": 700,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -151,7 +157,7 @@
             "name": "Witch's House Weather Vane",
             "hosted_item": "wv_witch",
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -161,9 +167,10 @@
         "map_locations": [
           {
             "map": "hyrule",
-            "x": 1027,
+            "x": 1047,
             "y": 349,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -177,7 +184,7 @@
               "[glitched]"
             ],
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -189,7 +196,8 @@
             "map": "hyrule",
             "x": 186,
             "y": 1737,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -205,7 +213,7 @@
               "[glitched], $access_desert"
             ],
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -215,9 +223,10 @@
         "map_locations": [
           {
             "map": "hyrule",
-            "x": 918,
+            "x": 900,
             "y": 652,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -226,7 +235,7 @@
             "name": "Sanctuary Weather Vane",
             "hosted_item": "wv_sanctuary",
             "visibility_rules": [
-              "wv_hyrule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -239,7 +248,8 @@
             "map": "lorule",
             "x": 424,
             "y": 318,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -251,7 +261,7 @@
               "$access_skull_woods_area"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -263,7 +273,8 @@
             "map": "lorule",
             "x": 1171,
             "y": 131,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -276,7 +287,7 @@
               "[glitched], $glitched_access_ldm_west"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -288,7 +299,8 @@
             "map": "lorule",
             "x": 1832,
             "y": 226,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -302,7 +314,7 @@
               "[hell], $hell_access_ldm_east_top"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -314,7 +326,8 @@
             "map": "lorule",
             "x": 1005,
             "y": 975,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -328,7 +341,7 @@
               "[hell], $hell_access_central_lorule"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -339,8 +352,9 @@
           {
             "map": "lorule",
             "x": 1233,
-            "y": 683,
-            "size": 52,
+            "y": 730,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -353,7 +367,7 @@
               "[lampless], $lampless_access_lorule_graveyard"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -365,7 +379,8 @@
             "map": "lorule",
             "x": 139,
             "y": 1035,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -379,7 +394,7 @@
               "[hell], $hell_access_central_lorule"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -391,7 +406,8 @@
             "map": "lorule",
             "x": 1990,
             "y": 885,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -406,7 +422,7 @@
               "[hell], $hell_access_dark_ruins"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -416,9 +432,10 @@
         "map_locations": [
           {
             "map": "lorule",
-            "x": 684,
+            "x": 704,
             "y": 1084,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -432,7 +449,7 @@
               "[hell], $hell_access_central_lorule"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -442,9 +459,10 @@
         "map_locations": [
           {
             "map": "lorule",
-            "x": 1160,
+            "x": 1180,
             "y": 1401,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -458,7 +476,7 @@
               "[hell], $hell_access_central_lorule"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -470,7 +488,8 @@
             "map": "lorule",
             "x": 460,
             "y": 1828,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -482,7 +501,7 @@
               "$access_misery_mire"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -494,7 +513,8 @@
             "map": "lorule",
             "x": 938,
             "y": 1849,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -508,7 +528,7 @@
               "hookshot, [hell], $hell_access_central_lorule"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -518,9 +538,10 @@
         "map_locations": [
           {
             "map": "lorule",
-            "x": 1611,
+            "x": 1632,
             "y": 1756,
-            "size": 52,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -534,7 +555,7 @@
               "[hell], $hell_access_turtleWV"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
@@ -545,8 +566,9 @@
           {
             "map": "lorule",
             "x": 1517,
-            "y": 383,
-            "size": 52,
+            "y": 403,
+            "size": 55,
+            "border_thickness": 10,
             "badge_size": 72
           }
         ],
@@ -560,7 +582,7 @@
               "[hell], $hell_access_ldm_east_base"
             ],
             "visibility_rules": [
-              "wv_lorule"
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only"
             ]
           }
         ]
